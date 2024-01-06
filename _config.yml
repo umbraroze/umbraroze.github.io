@@ -1,0 +1,14 @@
+title: Umbrarose's Adventures in Software Development
+email: wwwwolf@iki.fi
+description: >-
+  Some random software development 
+domain: umbraroze.github.io
+baseurl: /
+url: https://umbraroze.github.io
+github_username: umbraroze
+
+# Build settings
+theme: jekyll-theme-midnight
+plugins:
+  - jekyll-feed
+
