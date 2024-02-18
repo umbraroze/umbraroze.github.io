@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 
 # Umbrarose's Adventures in Software Development
