@@ -1,9 +1,9 @@
 source "https://rubygems.org"
-#gem "jekyll", "~> 4.3.3"
-gem "minima", "~> 2.5"
+gem "jekyll", "~> 3.9.5"
+#gem "minima", "~> 2.5"
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "github-pages", "~> 228"
+  gem "jekyll-feed", "~> 0.17.0"
+  gem "github-pages", "~> 231"
 end
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"

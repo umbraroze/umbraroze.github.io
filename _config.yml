@@ -1,14 +1,15 @@
 title: Umbrarose's Adventures in Software Development
 email: wwwwolf@iki.fi
 description: >-
-  Some random software development 
+  Random code thingies from a weird developer called Rose. These can get
+  sorta unusual and stuff.
 domain: umbraroze.github.io
 baseurl: /
 url: https://umbraroze.github.io
 github_username: umbraroze
 
 # Build settings
-remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
