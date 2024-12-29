@@ -10,6 +10,11 @@ some stuff about the more interesting recent software development adventures.
 - **[Conman's Dictionary](/ConmanDictionary/)**:
   A dictionary app for constructed language enthusiasts.
   Also a massive C# desktop development learning exercise.
+- **[PhotoFlow](/PhotoFlow/)**:
+  Photography workflow scripts.
+  They importinate.
+  They geolocate.
+  They do minor stuff.
 
 ## Upcoming
 
