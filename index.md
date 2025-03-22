@@ -32,21 +32,21 @@ projects. Helps me focus, I hope.
 
 These are the sub-sites that get built out of my GitHub repositories.
 
-- **[PhotoFlow](/PhotoFlow/)**:
+* **[PhotoFlow](/PhotoFlow/)**:
   Photography workflow scripts.
   They importinate.
   They geolocate.
   They do minor stuff.
-- **[Conman's Dictionary](/ConmanDictionary/)**:
+* **[Conman's Dictionary](/ConmanDictionary/)**:
   A dictionary app for constructed language enthusiasts.
   Also a massive C# desktop development learning exercise.
 
 ## Upcoming
 
-- A "portfolio" of sorts will eventually be here.
-- Processing hacks, including:
-  - Visualisation stuff
-  - A weird music insturment control thingie
-- Janky hardware jank-hacks with Raspberry Pi
-- Some retro projects with Turbo Pascal 'n' stuff
-- Old Stuff that *might not be* as good as I remember it was
+* A "portfolio" of sorts will eventually be here.
+* Processing hacks, including:
+  * Visualisation stuff
+  * A weird music insturment control thingie
+* Janky hardware jank-hacks with Raspberry Pi
+* Some retro projects with Turbo Pascal 'n' stuff
+* Old Stuff that *might not be* as good as I remember it was
