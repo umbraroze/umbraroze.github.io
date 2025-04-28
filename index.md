@@ -41,6 +41,16 @@ These are the sub-sites that get built out of my GitHub repositories.
   A dictionary app for constructed language enthusiasts.
   Also a massive C# desktop development learning exercise.
 
+## Recent blog posts
+
+<ul>
+  {% for post in site.posts limit:5 %}
+  <li><a href="{{post.url}}">{{post.title}}</a> ({{ post.date | date:"%d %B %Y" }})</li>
+  {% endfor %}
+</ul>
+
+([See the blog...](blog/))
+
 ## Upcoming
 
 * A "portfolio" of sorts will eventually be here.

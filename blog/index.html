@@ -1,0 +1,44 @@
+---
+layout: default
+permalink: /blog/
+title: Blog
+---
+<nav>
+    <p>
+        <a href="/">
+            Umbrarose's site            
+        </a>
+        ●
+        Blog
+        ●
+        <a href="/blog/archive.html">
+            Blog archive
+        </a>
+    </p>
+</nav>
+
+
+<h1>Blog</h1>
+
+{% for post in site.posts limit:10 %}
+<hr>
+<h2>{{post.title}}</h2>
+
+<p style="font-style: italic;">
+    ({{ post.date | date:"%d %B %Y" }}) by {{ post.author }}
+</p>
+
+{{post.teaser}}
+
+(<a href="{{post.url}}">Read more...</a>)
+{% endfor %}
+
+<nav>
+    <hr>
+    <p style="font-style: italic;">
+        Find more posts in the
+        <a href="/blog/archive.html">
+            blog archive
+        </a>
+    </p>
+</nav>

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<nav>
+    <p>
+        <a href="/">
+            Umbrarose's site
+        </a>
+        ●
+        <a href="/blog/">
+            Blog
+        </a>
+    </p>
+</nav>
+
+<article>
+
+    <h1>{{page.title}}</h1>
+
+    <p style="font-style: italic; text-align: right;">
+        Posted in {{ page.date | date:"%d %B %Y" }}
+        {% if page.author %}
+            by
+            {% if page.author_link %}
+                <a href="{{page.author_link}}">
+                    {{page.author}}
+                </a>
+            {% else %}
+                {{page.author}}
+            {% endif %}
+        {% endif %} 
+    </p>
+
+    {{content}}
+
+</article>
