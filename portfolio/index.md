@@ -69,4 +69,17 @@ technologies - and later, the same in C#.
 > **Language:** C  
 > **Website/repository:** No longer up?
 
-Memories of InfoPipery go here.
+InfoPipe was a plugin for the Linux music player XMMS 1.x which
+exposed its state as a named pipe. Every time another program
+read from the named pipe, the plugin wrote out the information about
+the current song and the player status. This was handy in the age
+before the now prevalent Linux GUI app interop layers like D-Bus.
+
+What was this handy for? Eeeh, I suppose a lot of people found it
+handy for extracting the information about the currently playing
+song for various display purposes. Everyone was fond of spamming their
+current jam on IRC chats, and I guess I may have made the problem worse.
+I made a script that feeds the current song title to text-to-speech
+so I can just press a remote control button and the computer will speak
+the name of the song, which was handy if I was listening to music
+away from the computer.
