@@ -41,6 +41,14 @@ These are the sub-sites that get built out of my GitHub repositories.
   A dictionary app for constructed language enthusiasts.
   Also a massive C# desktop development learning exercise.
 
+## Rants, Ramblings and Reminiscings
+
+* **[The Hackground](/hackground/)**:
+  I had various weird problems of technological nature. I wanted to
+  solve them through technology. Weirdly.
+  *Or:* I just wanted to make something weird.
+  Point is, things got weird and wonderful.
+
 ## Recent blog posts
 
 <ul>
