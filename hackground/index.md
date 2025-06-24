@@ -16,7 +16,13 @@ weird. Point is, things got weird and wonderful.
 
 ## Contents
 
-- Random Processing hacks.
-- [Silly Hello World](sillyhelloworld.html)
-- [XMMS InfoPipe](xmms_infopipe.html)
-- How does one make a clock, anyway.
+- [EpicDiff](epicdiff.html) (2010)
+- [The Sounds of the Road](roadsounds.html) (2011)
+- [Barcoddler](barcoddler.html) (2012)
+- [Ad Astra](adastra.html) (2013)
+
+Upcoming:
+
+- [Silly Hello World](sillyhelloworld.html) (Year?)
+- [XMMS InfoPipe](xmms_infopipe.html) (Year?)
+- How does one make a clock, anyway. (2025)
