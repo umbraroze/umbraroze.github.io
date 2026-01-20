@@ -1,12 +1,16 @@
 ---
 layout: default
-title: EpicDiff
+title: "EpicDiff"
 permalink: /hackground/epicdiff
 ---
 
+([Back to the Hackground](/hackground/))
+
+# EpicDiff
+
 <!-- TODO: Screenshot -->
 <!-- asset software*,epicdiff_screenie.png,EpicDiff screenshot,rfloat -->
-[SCREENSHOT]
+<!-- [SCREENSHOT] -->
 
 **EpicDiff** is a app suite for creating illustrative and entertaining
 animations out of docdiff-produced diffs. It was basically written so

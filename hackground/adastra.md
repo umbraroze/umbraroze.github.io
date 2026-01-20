@@ -1,8 +1,12 @@
 ---
 layout: default
-title: Ad astra, or, one of those old dreams
+title: "Ad astra, or, one of those old dreams"
 permalink: /hackground/adastra
 ---
+
+([Back to the Hackground](/hackground/))
+
+# Ad astra, or, one of those old dreams
 
 (Originally published in my blog in January 22, 2013)
 

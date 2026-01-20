@@ -4,6 +4,10 @@ title: The Hackground
 permalink: /hackground/
 ---
 
+([Back to the top](/))
+
+# The Hackground
+
 I had various weird problems of technological nature. I wanted to solve
 them through technology. Weirdly. *Or:* I just wanted to make something
 weird. Point is, things got weird and wonderful.
@@ -16,6 +20,7 @@ weird. Point is, things got weird and wonderful.
 
 ## Contents
 
+- [NeverBlender](neverblender.html) (2003–2006)
 - [EpicDiff](epicdiff.html) (2010)
 - [The Sounds of the Road](roadsounds.html) (2011)
 - [Barcoddler](barcoddler.html) (2012)
@@ -23,6 +28,6 @@ weird. Point is, things got weird and wonderful.
 
 Upcoming:
 
-- [Silly Hello World](sillyhelloworld.html) (Year?)
-- [XMMS InfoPipe](xmms_infopipe.html) (Year?)
+- Silly Hello World <!--[](sillyhelloworld.html) --> (Year?)
+- XMMS InfoPipe <!-- [](xmms_infopipe.html) --> (Year?)
 - How does one make a clock, anyway. (2025)
