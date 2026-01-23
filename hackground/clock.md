@@ -63,7 +63,7 @@ analog clocks on computers in a while, but I was kind of surprised
 that since last time when I remember looking at the analog clock on
 Windows...
 
-![Windows 3.0 Clock](clock_win3.png "Windows 3.0 Clock")
+![Windows 3.0 Clock](clock_win30.png "Windows 3.0 Clock")
 
 (Fig. 2: Windows 3.0 clock. Screenshot courtesy of [GUIdebook][guidebook-clock])
 
