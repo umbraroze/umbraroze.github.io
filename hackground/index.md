@@ -25,9 +25,9 @@ weird. Point is, things got weird and wonderful.
 - [The Sounds of the Road](roadsounds.html) (2011)
 - [Barcoddler](barcoddler.html) (2012)
 - [Ad Astra](adastra.html) (2013)
+- [Tales of a Clock Maker](clock.html) (2024)
 
 Upcoming:
 
 - Silly Hello World <!--[](sillyhelloworld.html) --> (Year?)
 - XMMS InfoPipe <!-- [](xmms_infopipe.html) --> (Year?)
-- How does one make a clock, anyway. (2025)
