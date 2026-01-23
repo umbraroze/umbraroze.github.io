@@ -2,13 +2,18 @@
 layout: default
 title: Portfolio of Weird Code
 permalink: /portfolio/
+published: false
 ---
+
+**NOTE:** in case you stumble here via GitHub pages sources: This page is
+still a draft.
+
+# Portfolio of Weird Code
 
 This part of the site is a showcase of random weird coding projects that
 I've done over years, perhaps to illustrate the sort of programming
 projects I do on my own. Not all of these projects are publicly
 available (yet).
-
 
 ## Photo Importinator
 
@@ -30,6 +35,7 @@ So, of course, I wrote my own tool for this!
 
 (Description...)
 
+<!--
 ## TheremiDIMI
 
 > **Language:** C++  
@@ -37,18 +43,21 @@ So, of course, I wrote my own tool for this!
 > **Website/repository:** GitHub
 
 (Description...)
+-->
 
+<!--
 ## Librariator
 
 > **Language:** Ruby (main application), Python (desktop GUI tools)  
 > **Libraries/Frameworks:** Ruby on Rails (Web/API), Qt/PySide (desktop GUI)  
-> **Website/repository:** GitHub
+> **Website/repository:** GitHub?
 
 This project of mine aims to be my personal solution to managing a
 DVD/Blu-Ray collection, and I will probably expand it later to
 also cover books. Making this one was pretty necessary, personally,
 because apparently people lost interest in making solid personal
 library management tools for regular users.
+-->
 
 ## Conman's Dictionary
 
@@ -67,7 +76,7 @@ technologies - and later, the same in C#.
 ## XMMS InfoPipe
 
 > **Language:** C  
-> **Website/repository:** No longer up?
+> **Website/repository:** No longer up (will convert to Git and post on Codeberg)
 
 InfoPipe was a plugin for the Linux music player XMMS 1.x which
 exposed its state as a named pipe. Every time another program
