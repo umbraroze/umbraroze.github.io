@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: page
 title: The Hackground
 permalink: /hackground/
 ---
-
-([Back to the top](/))
-
-# The Hackground
 
 I had various weird problems of technological nature. I wanted to solve
 them through technology. Weirdly. *Or:* I just wanted to make something
@@ -29,5 +25,5 @@ weird. Point is, things got weird and wonderful.
 
 Upcoming:
 
-- Silly Hello World <!--[](sillyhelloworld.html) --> (Year?)
+- Silly Hello World <!--[](sillyhelloworld.html) --> (2015)
 - XMMS InfoPipe <!-- [](xmms_infopipe.html) --> (Year?)

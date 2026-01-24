@@ -1,15 +1,13 @@
 ---
-layout: default
+layout: page
+site_section: hackground
 title: "The Sounds of the Road"
 permalink: /hackground/roadsounds
 ---
 
-([Back to the Hackground](/hackground/))
-
-# The Sounds of the Road
-
 *Note:* This was originally published in my blog in August 31, 2011.
-The contents have been slightly revised as of June 2025.
+The contents have been slightly revised as of June 2025. I will try to
+recover the images and video at some later point as this site improves.
 
 <!-- TODO: Git module: roadsounds.pde -->
 
@@ -29,8 +27,10 @@ one, and you have a peculiar mental capability, you can find such
 sound tracks everywhere.  But most people don't have the mental
 capability to actually *listen* to those soundtracks.
 
+{% comment %}
 <!-- TODO: Lead picture -->
 <!-- asset software*,roadsounds.jpg,The Sounds of the Road,centered_big -->
+{% endcomment %}
 [TITLE IMAGE]
 
 My father is, for a lack of better word, a cinema enthusiast -- as in
@@ -130,10 +130,15 @@ arrays, for example), 8-bit sound it is.
 Yet, there was one pretty big surprise waiting for me. I'll let you
 watch the resulting film first, however.
 
+{% comment %}
+<!-- TODO: Lead picture -->
+<!-- asset software*,roadsounds.jpg,The Sounds of the Road,centered_big -->
 <!-- TODO: Find the video, post it in YouTube -->
 <div style="text-align: center;">
 <iframe frameborder="0" width="480" height="270" src="//www.dailymotion.com/embed/video/x3vuwyo" allowfullscreen></iframe>
 </div>
+{% endcomment %}
+[VIDEO - will re-post to YouTube eventually!]
 
 The surprise? You may remember the part about *brrrlp!* - well, as it
 turns out, *that's not true.*

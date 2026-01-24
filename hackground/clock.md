@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
+site_section: hackground
 title: "Tales of a Clockmaker"
 permalink: /hackground/clock
 ---
-
-([Back to the Hackground](/hackground/))
 
 [View the Random Clock in OpenProcessing][openprocessing-random-clock]
 
@@ -167,7 +166,7 @@ license. Certain data files are Public Domain under CC0.
 [apple-clock-controversy]: https://www.cnet.com/tech/tech-industry/time-is-money-apple-pays-21m-for-clock-design-says-report/
 [godot-clock]: https://codeberg.org/umbraroze/GodotClock
 [godot-engine]: https://godotengine.org/
-[guidebookgallery-clock]: https://guidebookgallery.org/screenshots/clock
+[guidebook-clock]: https://guidebookgallery.org/screenshots/clock
 [openprocessing-random-clock]: https://openprocessing.org/sketch/2855584
 [photoflow-importinator-history]: https://umbraroze.github.io/PhotoFlow/photo_importinator/history.html
 [processing]: https://processing.org/

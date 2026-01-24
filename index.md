@@ -27,6 +27,9 @@ projects. Helps me focus, I hope.
   where some others of those projects of mine live.  These are
   probably old, hacky, crusty, random and experimental. Or
   combinations of those things. Or all of those things!
+* [OpenProcessing hacks](https://openprocessing.org/user/8754#sketches)
+  (Not much yet and what's there is boring too. I'll need to port some
+  of the old stuff to p5.js)
 
 ## Current project sites
 

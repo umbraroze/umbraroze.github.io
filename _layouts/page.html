@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<nav>
+  <p>
+    Navigation:
+    <a href="/">
+      Top
+    </a>
+{% if page.site_section == "hackground" %}
+    ●
+    <a href="/hackground/">
+      The Hackground
+    </a>
+{% elsif page.site_section == "tbd" %}
+{% endif %}
+    ●
+{% if page.short_title %}
+    {{page.short_title}}
+{% else %}  
+    {{page.title}}
+{% endif %}
+  </p>
+</nav>
+
+<article>
+
+    <h1>{{page.title}}</h1>
+
+    {{content}}
+
+</article>

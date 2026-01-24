@@ -1,12 +1,9 @@
 ---
-layout: default
+layout: page
+site_section: hackground
 title: "Barcoddler"
 permalink: /hackground/barcoddler
 ---
-
-([Back to the Hackground](/hackground/))
-
-# Barcoddler
 
 (Originally published in my blog in October 4, 2012)
 

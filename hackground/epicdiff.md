@@ -1,16 +1,15 @@
 ---
-layout: default
+layout: page
+site_section: hackground
 title: "EpicDiff"
 permalink: /hackground/epicdiff
 ---
 
-([Back to the Hackground](/hackground/))
-
-# EpicDiff
-
+{% comment %}
 <!-- TODO: Screenshot -->
 <!-- asset software*,epicdiff_screenie.png,EpicDiff screenshot,rfloat -->
 <!-- [SCREENSHOT] -->
+{% endcomment %}
 
 **EpicDiff** is a app suite for creating illustrative and entertaining
 animations out of docdiff-produced diffs. It was basically written so
@@ -31,8 +30,12 @@ in future, however, when I actually need it, and in those cases, try
 not to strip away any of the functionality that is already present and
 will only add new options.
 
-## Downloads
+## Links and downloads
 
+(This section is a mess. I need to update the links! And post the
+video to YouTube or something.)
+
+{% comment %}
 <!-- TODO: Fix links to GitHub -->
 <!-- TODO: Post the video to YouTube -->
 
@@ -42,6 +45,7 @@ will only add new options.
 <div style="text-align: center;">
 <iframe frameborder="0" width="480" height="270" src="//www.dailymotion.com/embed/video/x3vtkdj" allowfullscreen></iframe>
 </div>
+{% endcomment %}
 
 ## Dependencies
 

@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
+site_section: hackground
 title: "Ad astra, or, one of those old dreams"
+short_title: "Ad astra"
 permalink: /hackground/adastra
 ---
-
-([Back to the Hackground](/hackground/))
-
-# Ad astra, or, one of those old dreams
 
 (Originally published in my blog in January 22, 2013)
 

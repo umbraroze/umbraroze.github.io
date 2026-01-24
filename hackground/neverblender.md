@@ -1,12 +1,10 @@
 ---
-layout: default
-title: NeverBlender
+layout: page
+site_section: hackground
+title: "NeverBlender: A look back"
+short_title: "NeverBlender"
 permalink: /hackground/neverblender
 ---
-
-([Back to the Hackground](/hackground/))
-
-# NeverBlender: A look back
 
 **NeverBlender** was a Python script that allowed exporting
 [Neverwinter Nights][wikipedia-nwn] format Bioware MDL files from
