@@ -7,6 +7,7 @@ domain: umbraroze.github.io
 baseurl: /
 url: https://umbraroze.github.io
 github_username: umbraroze
+show_downloads: false
 
 collections:
   posts:
@@ -14,7 +15,8 @@ collections:
     permalink: /blog/:year/:month/:title:output_ext
 
 # Build settings
-remote_theme: pages-themes/slate@v0.2.0
+# For remote theme documentation: https://github.com/pages-themes/cayman
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
