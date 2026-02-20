@@ -6,33 +6,64 @@ short_title: "NeverBlender"
 permalink: /hackground/neverblender
 ---
 
-**NeverBlender** was a Python script that allowed exporting
-[Neverwinter Nights][wikipedia-nwn] format Bioware MDL files from
-[Blender][blender].
+![NeverBlender](neverblender-logo.jpg "NeverBlender")
 
-It supported exporting basic model geometry and texture UV maps.
+**NeverBlender** was a project I started and, luckily, it was
+picked up by others. Things went a little bit south at my end.
+
+NeverBlender is a Python script extension that allowed exporting
+[Neverwinter Nights][wikipedia-nwn] format Bioware MDL files from
+[Blender][blender] - the version I made seemingly worked up to
+version 2.5x.
+At the time, it supported exporting basic model geometry and texture UV maps.
 It also allowed keeping MDL-specific settings in a text block in model file.
 
-The fancy future direction would have been to support animation
-exporting and some of the other features supported by MDL file format.
-At the time, the prefered 3D modeling program for making MDL files was
-Discreet's Gmax (a cut-down freeware version of 3DS Max), and it only
-supported a single timeline, which sounded janky because Blender supported
-multiple animations.
+My original plan for fancy future directions would have been to
+support animation exporting and some of the other features supported
+by MDL file format.
+
+!["Mere Widget" test object](neverblender-merewidget.jpg "'Mere Widget' test object")
+
+At the time when the project started, the prefered 3D modeling program
+for making MDL files was Discreet's Gmax (a cut-down freeware version
+of 3DS Max). I had two reasons for starting this project. First, I
+didn't know how to use 3DS Max and I was already familiar with
+Blender; second, I thought the way Gmax supported animations was janky
+and limited. You had only one timeline which you had to manually split
+up among various animations, while Blender at the time already
+supported animation actions. (Of course, ultimately, this was all
+academic because I never actually got to implement animation
+exporting!)
 
 Git-ified version of the
 [original NeverBlender repository][neverblender-codeberg] is available
 in Codeberg.
 
-It was originally developed between 2003–2006, and as such, you'll
-probably have no luck getting it running on modern versions of Blender.
+![NeverBlender crappy pine demonstration](neverblender-pine.jpg "NeverBlender crappy pine demonstration")
 
-I currently have no ambitions in getting back to developing it. I was
-not a good Python developer at the time, and people who contributed to
-the code did Cleverer Things I Was Able To Do. But then again, Gmax was
-discontinued by Autodesk, so maybe there's interest in this again...?
+It was originally developed between 2003–2006.
+At this page, I'll probably later on go on to describe the various
+misadventures with the development process and why I wasn't quite able
+to continue the project.
 
+But suffice to say, I'm happy that the torch was picked up! The
+development was subsequently continued by "Symmetric":
+
+* [NeverBlender for Blender 2.69][for-blender-2.69]
+* [NeverBlender for Blender 2.79][for-blender-2.79]
+* [NWN Wiki page][nwnwiki]
+
+I've not kept at touch with the current developers and I don't know if
+there's a public code repository for these.
+
+I'm not at the moment involved with these subsequent projects, and at
+this point, they've evolved way, way, *way* past what I could
+ever do.
 
 [wikipedia-nwn]: https://en.wikipedia.org/wiki/Neverwinter_Nights_(2002_video_game)
 [blender]: https://www.blender.org/
 [neverblender-codeberg]: https://codeberg.org/umbraroze/NeverBlender
+[for-blender-2.69]: https://neverwintervault.org/project/nwn1/other/tool/neverblender-v1
+[for-blender-2.79]: https://neverwintervault.org/project/nwn1/other/tool/neverblender-27
+[nwnwiki]: https://nwn.wiki/spaces/NWN1/pages/38176439/NeverBlender
+
