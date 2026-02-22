@@ -13,7 +13,9 @@ Repositories:
 
 # Tales of a Clock Maker
 
-![Clock in Processing](clock_processing.png "Clock in Processing")
+<figure class="featured-image">
+  <img src="clock_processing.png" title="Clock in Processing" alt="Clock in Processing">
+</figure>
 
 I programmed some analog clocks. It might not sound very impressive, but
 somehow, it turned out that this was actually a good use of my time!
@@ -53,18 +55,26 @@ screwed up their clocks. How do you screw up making a clock? That's
 
 But, in 2024, I was noting that *someone else* had screwed up making a clock.
 
-![Windows 11 Clock](clock_win11.png "Windows 11 Clock")
+<figure class="featured-image">
+  <img src="clock_win11.png" title="Windows 11 Clock" alt="Windows 11 Clock">
+  <figcaption>(Fig. 1: Windows 11 Clock, version 11.2510.4.0)</figcaption>
+</figure>
 
-(Fig. 1: Windows 11 Clock, version 11.2510.4.0)
+
 
 Remember when Windows had a *good clock?* I hadn't thought of looking at
 analog clocks on computers in a while, but I was kind of surprised
 that since last time when I remember looking at the analog clock on
 Windows...
 
-![Windows 3.0 Clock](clock_win30.png "Windows 3.0 Clock")
+<figure class="featured-image">
+  <img src="clock_win30.png" title="Windows 3.0 Clock" alt="Windows 3.0 Clock">
+  <figcaption>
+    (Fig. 2: Windows 3.0 clock. Screenshot courtesy of
+    <a href="https://guidebookgallery.org/screenshots/clock">GUIdebook</a>)
+  </figcaption>
+</figure>
 
-(Fig. 2: Windows 3.0 clock. Screenshot courtesy of [GUIdebook][guidebook-clock])
 
 ...apparently it turns out Windows 11 clock no longer has an analog
 clock mode at all. In fact, you can't even make Windows clock to show
@@ -166,7 +176,6 @@ license. Certain data files are Public Domain under CC0.
 [apple-clock-controversy]: https://www.cnet.com/tech/tech-industry/time-is-money-apple-pays-21m-for-clock-design-says-report/
 [godot-clock]: https://codeberg.org/umbraroze/GodotClock
 [godot-engine]: https://godotengine.org/
-[guidebook-clock]: https://guidebookgallery.org/screenshots/clock
 [openprocessing-random-clock]: https://openprocessing.org/sketch/2855584
 [photoflow-importinator-history]: https://umbraroze.github.io/PhotoFlow/photo_importinator/history.html
 [processing]: https://processing.org/
