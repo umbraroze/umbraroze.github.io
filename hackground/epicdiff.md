@@ -62,6 +62,10 @@ Animation software:
 * [GSVideo](http://gsvideo.sourceforge.net/) My runs worked with
   GSVideo 0.7 in Debian Linux.
 
+(**MAINTENANCE NOTE:** As stated, these versions are ancient. GSVideo in
+particular is *exceedingly* obsolete, as the video facility in
+Processing 2 and later is based on it and included by default.)
+
 ### Compatibilty notes
 
 The code was written in Ruby 1.8 days and hasn't been really used
@@ -100,19 +104,49 @@ The workflow with the animation goes like this:
   * Convert the HTML to PDF using wkhtmltopdf
   * analyse, resize and convert the pages using RMagick
   * Produce yet another damn XML file with more summary data. Why
-    make one XML file when you can make two =)
+    make one XML file when you can make two 😄
 * Slurp the XML summary and image files from individual pages in the
   Processing program, which will _clearly_ animate the resulting
   pages and hopefully produce a nice little video file.
 
+## gitsplode
+
+The `gitsplode.rb` script feebly attempts to exports the entire
+history of a single file from a Git repository. "Feebly attempts to",
+because *\*ahem\** Git's notion of single file identity *is what it
+is*.
+
+This was mostly made to assist me in researching how my writing
+projects are proceeding (i.e. *"In (date) my word count was (x)"*),
+and I tend to keep those projects in single files as much as possible,
+so if your use case diverts too much from that, you'll luck will
+probably run out.
+
+The program will spit out each revision in a file that is named after
+the commit date, and also spits out an XML summary file
+(`summary.xml`) that is pretty much self-explanatory:
+
+```xml
+<commitdata>
+    <commit>
+        <filename>foo.1234_56_78.12_34_56.txt</filename>
+        <date unix="123456">Thursday of Human-Readable Date Whenever</date>
+        <message>This is a commit message and stuff...</message>
+    </commit>
+    <!-- ... -->
+</commitdata>
+```
+
 ## License
 
-The animation software itself is distiributed under the terms of the
-[GNU General Public License, version 3](https://www.gnu.org/copyleft/gpl.html).
-The bundled ["Anonymous Pro" font, by
-Mark Simonson](http://www.marksimonson.com/fonts/view/anonymous-pro), is
-distributed under the [SIL Open Font
-License](http://scripts.sil.org/OFL).
+- The animation software (`epicdiff.pde`) and
+  the converter (`tellthetale.rb`) are distributed under the terms of the
+  [GNU General Public License, version 3](https://www.gnu.org/copyleft/gpl.html).
+- `gitsplode.rb` is under MIT license (see the terms at the start of the file.)
+- The bundled
+  ["Anonymous Pro" font, by Mark Simonson](http://www.marksimonson.com/fonts/view/anonymous-pro),
+  is distributed under the
+  [SIL Open Font License](http://scripts.sil.org/OFL).
 
 -----
 
