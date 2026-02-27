@@ -6,6 +6,8 @@ short_title: "Digital flames"
 permalink: /hackground/digiflame
 ---
 
+Repository: [Digital flame](https://github.com/umbraroze/digiflame)
+
 <figure class="featured-image">
   <img src="digiflame.png" title="Digital flames" alt="Digital flames">
 </figure>
