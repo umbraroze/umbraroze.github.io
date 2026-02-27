@@ -5,11 +5,9 @@ title: "EpicDiff"
 permalink: /hackground/epicdiff
 ---
 
-{% comment %}
-<!-- TODO: Screenshot -->
-<!-- asset software*,epicdiff_screenie.png,EpicDiff screenshot,rfloat -->
-<!-- [SCREENSHOT] -->
-{% endcomment %}
+<figure class="featured-image">
+  <img src="epicdiff_screenie.png" title="EpicDiff screenshot" alt="">
+</figure>
 
 **EpicDiff** is a app suite for creating illustrative and entertaining
 animations out of docdiff-produced diffs. It was basically written so
@@ -17,6 +15,7 @@ that I can make an animation out of my NaNoWriMo novel, but you can
 probably modify it to fit your work flow.
 
 NOTE: THIS SOFTWARE IS PROVIDED IN THE "ITWORKSFORME®"
+(or rather "ITSORTAUSEDTOWORKFORME®")
 CONFIGURATION. SOME EXPERTISE AND PROVERBIAL TOUCHING OF POTENTIALLY
 LIVE WIRES IS REQUIRED. YOU MAY MISS YOUR DEADLINES IF YOU RELY ON
 THIS THING, AND I'M NOT TAKING RESPONSIBILITY FOR THAT.
@@ -35,16 +34,14 @@ will only add new options.
 (This section is a mess. I need to update the links! And post the
 video to YouTube or something.)
 
+- [GitHub repository](https://github.com/umbraroze/epicdiff)
+  for the `epicdiff` Processing sketch, as well as
+  `tellthetale.rb` and `gitsplode.rb` Ruby scripts.
+
 {% comment %}
-<!-- TODO: Fix links to GitHub -->
 <!-- TODO: Post the video to YouTube -->
-
-* <!-- site_link gitlab, https://gitlab.com/wwwwolf-art/processing/blob/master/epicdiff,--> The Processing sketch and the tools are available through GitHub.
 * [A video](http://www.dailymotion.com/video/x3vtkdj_epicdiff-nanowrimo-2010-progress-animated_creation) of my NaNoWriMo 2010 writing process is available on DailyMotion.
-
-<div style="text-align: center;">
-<iframe frameborder="0" width="480" height="270" src="//www.dailymotion.com/embed/video/x3vtkdj" allowfullscreen></iframe>
-</div>
+<!-- Embedded video? -->
 {% endcomment %}
 
 ## Dependencies
@@ -52,16 +49,10 @@ video to YouTube or something.)
 Conversion tool:
 
 * Probably some sort of POSIX userland. (Needs the wc(1) tool.)
-* [Ruby](http://www.ruby-lang.org/en/) and [RMagick](http://rmagick.rubyforge.org/) [ gem install rmagick ]
-* [DocDiff](http://www.kt.rim.or.jp/~hisashim/docdiff/)
-* [wkhtmltopdf](http://code.google.com/p/wkhtmltopdf/)
-
-Probably helpful in conversion:
-
-* [gitsplode.rb](https://github.com/wwwwolf/randomscripts/blob/master/gitsplode/gitsplode.rb)
-  (Note that while other tools are probably cross-platform in some
-  sense, this tool MAY be ingloriously written, unportable and
-  dependant on Posix-like environment.)
+* [Ruby](http://www.ruby-lang.org/) and
+  [RMagick](https://rmagick.github.io/) [ gem install rmagick ]
+* [DocDiff](https://github.com/hisashim/docdiff/)
+* [wkhtmltopdf](https://wkhtmltopdf.org/)
 
 Animation software:
 
@@ -76,14 +67,14 @@ Animation software:
 The code was written in Ruby 1.8 days and hasn't been really used
 since, so there _may_ be some small hitches with 1.9/2.x. I don't
 expect anything Earth-shattering, however. It's not like we'd be on
-Python or anything.</obligatoryjab>
+Python or anything. `</obligatoryjab>`
 
 As detailed in the technical discussion below, Processing 1.x only
 shipped with obsolete Java QuickTime layer and required the external
-GSVideo library for this kind of stuff. The current version of
-Processing, 2.x, actually includes a new video API that is based on
-GSVideo, so when I get around to updating this app to be compatible
-with Processing 2, it should work without too many changes (class
+GSVideo library for this kind of stuff. Processing 2.x and later
+actually includes a new video API that is based on GSVideo, so when I
+get around to updating this app to be compatible with modern
+Processing versions, it should work without too many changes (class
 names are different and that's about that).
 
 ## Workflow
@@ -327,12 +318,10 @@ programs swap around are marked with dotted outlines.
 
 ### Gitsplode
 
-<!-- TODO: Find the diagram -->
-
-<!-- asset software*,epicdiff_gitsplode.png,gitsplode,centered_big -->
-[DIAGRAM]
-
-Diagram 1: gitsplode
+<figure class="featured-image">
+  <img src="epicdiff_gitsplode.png" title="gitsplode" alt="">
+  <figcaption>Diagram 1: gitsplode</figcaption>
+</figure>
 
 The purpose of gitsplode is to take every revision of a single file
 from the git repository and save it into individual files. It will
@@ -411,11 +400,10 @@ interchange.
 
 ### Tellthetale
 
-<!-- TODO: Find the diagram -->
-<!-- asset software*,epicdiff_tellthetale.png,tellthetale,centered_big -->
-[DIAGRAM]
-
-Diagram 2: tellthetale
+<figure class="featured-image">
+  <img src="epicdiff_tellthetale.png" title="tellthetale" alt="">
+  <figcaption>Diagram 2: tellthetale</figcaption>
+</figure>
 
 The telltethale script does a lot of the “interesting” things in this
 application. It is also interesting in that it calls different
@@ -631,11 +619,10 @@ information is moved to attributes.
 
 ### EpicDiff
 
-<!-- TODO: Diagram -->
-<!-- asset software*,epicdiff_epicdiff.png,epicdiff,centered_big -->
-[DIAGRAM]
-
-Diagram 3: EpicDiff
+<figure class="featured-image">
+  <img src="epicdiff_epicdiff.png" title="epicdiff" alt="">
+  <figcaption>Diagram 3: EpicDiff</figcaption>
+</figure>
 
 EpicDiff is the third application in the workflow, responsible for the
 actual visualisation.
@@ -644,7 +631,7 @@ EpicDiff is distributed as a Processing sketch, and needs the
 Processing IDE to run. This is because the actual program data has to
 be generated by gitsplode and tellthetale, and placed in the sketch's
 _data/input_ directory first. The sketch requires
-_data/input/page_summary.xml_ as well as all of the referenced image
+_data/input/page\_summary.xml_ as well as all of the referenced image
 files.
 
 #### An unlikely component: Anonymous Pro
