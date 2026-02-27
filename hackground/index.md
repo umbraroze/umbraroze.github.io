@@ -20,6 +20,7 @@ weird. Point is, things got weird and wonderful.
 - [EpicDiff](epicdiff.html) (2010)
 - [The Sounds of the Road](roadsounds.html) (2011)
 - [Barcoddler](barcoddler.html) (2012)
+- [Digital flames](digiflame.html) (2012)
 - [Ad Astra](adastra.html) (2013)
 - [Tales of a Clock Maker](clock.html) (2024)
 
