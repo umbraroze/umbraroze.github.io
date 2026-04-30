@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Tales of a Clockmaker | Umbrarose’s Adventures in Software Development</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Tales of a Clockmaker" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff." />
+<meta property="og:description" content="Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff." />
+<link rel="canonical" href="http://localhost:4000/hackground/clock" />
+<meta property="og:url" content="http://localhost:4000/hackground/clock" />
+<meta property="og:site_name" content="Umbrarose’s Adventures in Software Development" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Tales of a Clockmaker" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff.","headline":"Tales of a Clockmaker","url":"http://localhost:4000/hackground/clock"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Tales of a Clockmaker</h1>
+      <h2 class="project-tagline">Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff.</h2>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <nav>
+  <p>
+    Navigation:
+    <a href="/">
+      Top
+    </a>
+
+    ●
+    <a href="/hackground/">
+      The Hackground
+    </a>
+
+    ●
+  
+    Tales of a Clockmaker
+
+  </p>
+</nav>
+
+<article>
+
+    <h1>Tales of a Clockmaker</h1>
+
+    <p><a href="https://openprocessing.org/sketch/2855584">View the Random Clock in OpenProcessing</a></p>
+
+<p>Repositories:
+<a href="https://github.com/umbraroze/random_clock">Random Clock</a> (the prototype),
+<a href="https://codeberg.org/umbraroze/GodotClock">Godot Clock</a> (nicer version, in progress)</p>
+
+<h1 id="tales-of-a-clock-maker">Tales of a Clock Maker</h1>
+
+<figure class="featured-image">
+  <img src="clock_processing.png" title="Clock in Processing" alt="Clock in Processing" />
+</figure>
+
+<p>I programmed some analog clocks. It might not sound very impressive, but
+somehow, it turned out that this was actually a good use of my time!</p>
+
+<p>This is kind of going to be another one of my ungodly long rants about
+things that <em>should</em> be easy, but which are actually deceptively
+complicated. For another one of those, I recommend reading my tiny
+short ramble about
+<a href="https://umbraroze.github.io/PhotoFlow/photo_importinator/history.html">importing photos from SD cards</a>.</p>
+
+<h2 id="why-would-anyone-make-an-analog-clock-anyway">Why would anyone make an analog clock, anyway?</h2>
+
+<p>In July 17, 2024, I realised that</p>
+
+<ol>
+  <li>I was depressed that particular night and</li>
+  <li>I hadn’t written an analog clock before. To heck with it, it had to
+be done.</li>
+</ol>
+
+<p>So I started another one of those projects of mine in which I combat
+depression by doing some random interesting coding challenge and post
+about it to social media when I’m done.</p>
+
+<p>And I did make it, and I did post it. The original version made in the
+dead of the night was untested and had a brainfart, so I fixed it the
+next day. The end?</p>
+
+<h2 id="to-make-clocks-is-to-court-peril">To make clocks is to court peril</h2>
+
+<p>Well, actually, there was a third bit of motivation in making this
+clock.</p>
+
+<p>Long ago, Apple screwed up. Wrath of Switzerland descended upon them,
+because <a href="https://www.cnet.com/tech/tech-industry/time-is-money-apple-pays-21m-for-clock-design-says-report/">they copied Swiss railway clocks</a>.
+In my depression, I though it was highly tragicomical that Apple
+screwed up their clocks. How do you screw up making a clock? That’s
+<em>sad.</em></p>
+
+<p>But, in 2024, I was noting that <em>someone else</em> had screwed up making a clock.</p>
+
+<figure class="featured-image">
+  <img src="clock_win11.png" title="Windows 11 Clock" alt="Windows 11 Clock" />
+  <figcaption>(Fig. 1: Windows 11 Clock, version 11.2510.4.0)</figcaption>
+</figure>
+
+<p>Remember when Windows had a <em>good clock?</em> I hadn’t thought of looking at
+analog clocks on computers in a while, but I was kind of surprised
+that since last time when I remember looking at the analog clock on
+Windows…</p>
+
+<figure class="featured-image">
+  <img src="clock_win30.png" title="Windows 3.0 Clock" alt="Windows 3.0 Clock" />
+  <figcaption>
+    (Fig. 2: Windows 3.0 clock. Screenshot courtesy of
+    <a href="https://guidebookgallery.org/screenshots/clock">GUIdebook</a>)
+  </figcaption>
+</figure>
+
+<p>…apparently it turns out Windows 11 clock no longer has an analog
+clock mode at all. In fact, you can’t even make Windows clock to show
+seconds! Android, while not having analog clock either, at least does
+show seconds if you ask it really nicely.</p>
+
+<p>Also, at the time, Windows Update and Store were somehow messed up on
+my computer and apps got stuck updating for long periods of time. And
+Clock needed some updates. Why does a Clock need frequent
+updates. Why. If I’m to estimate Microsoft’s next move, they’ll
+probably add Copilot to it next so it can guess the time. (…Eh, I
+shouldn’t give them ideas.)</p>
+
+<h2 id="the-biggest-motivation">The biggest motivation</h2>
+
+<p>So why do I need an analog clock? I had an actual real practical
+reason to make an analog clock app of my own.</p>
+
+<p>My weird brain wants an analog clock, with a second hand. Or, an
+analog clock plus a digital clock.</p>
+
+<p>I need an analog clock so I can accurately set time manually on my
+devices that don’t have Internet time sync. Just wait for the second
+hand go to the top of the minute and hit the set button. Easy
+peasy. Can do that with a digital clock with seconds display, but it’s
+less clear. Can’t mess it up with an analog clock though. <em>I’ve been
+trained.</em></p>
+
+<h2 id="internet-time-sync-was-almost-as-big-mistake-as-iot-in-general">Internet time sync was almost as big mistake as IoT in general</h2>
+
+<p>A prime example of these kind of devices are my cameras. Setting the
+clocks manually is a frequent hassle at the daylight saving time
+change, and some of these clocks also have a significant amount of
+drift so I prefer to set the time every time I charge the batteries.</p>
+
+<p>Well, some of the cameras <em>theoretically</em> could sync times through
+apps over Bluetooth, but I don’t keep Bluetooth on on the cameras
+because I prefer the batteries to stay at usable levels for more than
+a day. Also, the apps are a bit hassley. (For Nikon, at least.) For
+some cameras, the apps are just janky. (People straight up told me not
+to use the Ricoh GR III app.) And, well, some apps can go straight to
+hell as far as I care. (GoPro replaced the GoPro app with “Quik”,
+which has some subscription nonsense and, oh, my camera is apparently
+obsolete now. How do they consider a camera obsolete? How does that
+even <em>happen,</em> this alien concept of considering cameras obsolete?
+Just asking as a Nikon fangirl… Oh well, at least they didn’t take
+away the ability to set the time manually.)</p>
+
+<p>So in summary: I made the clocks to serve a very practical need of
+having an analog clock around to set the time manually on some of my
+devices. And the fact that major OSes didn’t have analog clocks was
+just <em>sad.</em> The closest I had was Android, and even that needed me
+constantly prodding my phone’s screen to avoid making the phone go
+sleep.</p>
+
+<h2 id="random-clock-the-original-prototype">Random Clock (the original prototype)</h2>
+
+<p>So, the <a href="https://github.com/umbraroze/random_clock">old prototype</a> was made in
+<a href="https://processing.org/">Processing</a> in July 17 to 18, 2024.</p>
+
+<p>In January 23, 2026, I ported it to p5.js, and it’s <a href="https://openprocessing.org/sketch/2855584">available for
+viewing in browser at OpenProcessing</a>.</p>
+
+<p>Topics to cover here in the future:</p>
+
+<ul>
+  <li>Educational bit: mechanics of how the clock works</li>
+  <li>Perils of depression coding and releasing stuff in random Mastodon posts</li>
+</ul>
+
+<p>The original Processing version, and its p5.js port, is available
+under the MIT License.</p>
+
+<h2 id="godot-clock">Godot Clock</h2>
+
+<p>Currently, I’m writing <a href="https://codeberg.org/umbraroze/GodotClock">a new clock</a> - that is also a
+little bit more useful - in the <a href="https://godotengine.org/">Godot Engine</a>.</p>
+
+<p>Windows build is available via Codeberg, other platforms can open and
+run the project in Godot Engine.
+As of writing, the bleeding edge code is confirmed to work with
+Godot 4.5.</p>
+
+<p>Preferably, the tagged releases should be used. I try to not to
+push entirely broken versions to the repository too, so chances are
+the bleeding edge version in git will also work the same way.</p>
+
+<p>A few niceties are being currently worked on.</p>
+
+<p>Some of the topics I’ll cover in the future:</p>
+
+<ul>
+  <li>Mechanics of how the analog clock works this time</li>
+  <li>Making seven-segment displays, oh my!</li>
+  <li>Theory and practice of implementing <a href="https://en.wikipedia.org/wiki/Greenwich_Time_Signal">Radio pips</a>: how
+they work, how to implement them, and how to produce the sounds
+sensibly</li>
+</ul>
+
+<p>GDScript code and Godot scene data released under the MIT
+license. Certain data files are Public Domain under CC0.</p>
+
+
+
+</article>
+
+
+      <footer class="site-footer">
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>

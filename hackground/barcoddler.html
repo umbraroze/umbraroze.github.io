@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Barcoddler | Umbrarose’s Adventures in Software Development</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Barcoddler" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff." />
+<meta property="og:description" content="Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff." />
+<link rel="canonical" href="http://localhost:4000/hackground/barcoddler" />
+<meta property="og:url" content="http://localhost:4000/hackground/barcoddler" />
+<meta property="og:site_name" content="Umbrarose’s Adventures in Software Development" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Barcoddler" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff.","headline":"Barcoddler","url":"http://localhost:4000/hackground/barcoddler"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Barcoddler</h1>
+      <h2 class="project-tagline">Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff.</h2>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <nav>
+  <p>
+    Navigation:
+    <a href="/">
+      Top
+    </a>
+
+    ●
+    <a href="/hackground/">
+      The Hackground
+    </a>
+
+    ●
+  
+    Barcoddler
+
+  </p>
+</nav>
+
+<article>
+
+    <h1>Barcoddler</h1>
+
+    <p>(Originally published in my blog in October 4, 2012)</p>
+
+<p>Looks like I forgot to report about this project earlier.</p>
+
+<!-- TODO: Site link -->
+<!-- site_link gitlab,https://gitlab.com/wwwwolf-art/processing/blob/master/barcoddler/barcoddler.pde,Barcoddler -->
+
+<p>Barcoddler is a <a href="http://processing.org/">Processing</a> program to read barcodes.</p>
+
+<p><a href="https://www.librarything.com/profile/wwwwolf">I’ve been using
+LibraryThing</a> for
+cataloguing my books. LibraryThing interfaces with various library
+databases - all you need is to enter ISBNs or barcode readings.</p>
+
+<p>Some day, I will probably buy a real barcode reader. I might even buy
+one of the <a href="https://en.wikipedia.org/wiki/CueCat">:CueCats</a> from
+LibraryThing for dot-com boom nostalgia.</p>
+
+<p>Meanwhile, it’s probably adequate to use a webcam as a barcode reader.</p>
+
+<p>Processing is able to use Java libraries. Fortunately, there’s a good
+barcode reader library available for Java -
+<a href="https://code.google.com/p/zxing/">zxing</a>, developed for Google and
+Android.</p>
+
+<p>The “magic part” - two lines of code - of this Processing sketch was
+taken from <a href="http://blog.makezine.com/2011/03/02/codebox-use-qr-codes-in-processing/">MAKE article</a>. The
+article is about QR codes, but since zxing supports two-dimensional
+barcodes, it’s just a matter of tweaking.</p>
+
+<!-- TODO: Screenshot -->
+<!-- asset software*,barcoddler.jpg,Barcoddler in action,centered_big -->
+<p>[SCREENSHOT]</p>
+
+<p>I did run into a rather odd problem with this sketch. I spent hours
+wondering why the hell the library wasn’t detecting barcodes. I had
+never had really good experience with zxing anyway - I had previously
+used an older version of Barcode Reader, a JavaME app based on zxing,
+and the app didn’t actually read barcodes.</p>
+
+<p>The problem, as it turned out, wasn’t the fault of the
+cellphone. zxing just isn’t quite refined enough.</p>
+
+<p>Turns out that zxing doesn’t like crappy cameras.</p>
+
+<p>zxing couldn’t make sense of the blurry and noisy image that my
+netbook’s built-in webcam was feeding it, any more than it could make
+sense of the slightly blurry images of my cheapo Nokia. Google built
+zxing for Android phones which may actually have somewhat plausible
+cameras. (I doubt they do, though. All cellphone cameras suck,
+unconditionally.)</p>
+
+<p>However, zxing could make sense of the sharper image fed by my
+Quickcam. It actually allows for focusing, bringing in crystal clear
+images. (It also allows for fascinating image filters to be used, but
+that didn’t quite happen here.)</p>
+
+<p>As the screenshot was made, I was using GSVideo library for video
+capture. I’ve now updated the program to use the new Processing 2.0
+beta built-in video library, which is based on GSVideo, which
+unfortunately doesn’t work quite as well yet.</p>
+
+<p>Stuff To Do: actually make it work on Processing 2.0 again, adding
+better support for video source choices, and a better way to gather
+multiple barcodes.</p>
+
+
+
+</article>
+
+
+      <footer class="site-footer">
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
