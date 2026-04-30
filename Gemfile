@@ -1,8 +1,9 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 3.10.0"
+gem "jekyll", "~> 4.4.1"
 group :jekyll_plugins do
+  gem "jekyll-remote-theme", "~> 0.4.3"
+  gem "jekyll-seo-tag", "~> 2.8.0"
   gem "jekyll-feed", "~> 0.17.0"
-  gem "github-pages", "~> 232"
 end
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"

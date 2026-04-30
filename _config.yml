@@ -9,6 +9,9 @@ url: https://umbraroze.github.io
 github_username: umbraroze
 show_downloads: false
 
+include:
+ - .nojekyll
+
 collections:
   posts:
     output: true
