@@ -17,9 +17,10 @@ stuff might be in danger of not happening too often.
 <!-- TODO: Site link -->
 <!-- ( site_link gitlab,https://gitlab.com/wwwwolf-art/processing/blob/master/starjourney/starjourney.pde,code in GitLab.com ) -->
 
-<!-- TODO: Image -->
-<!-- asset software*,starjourney.png,StarJourney in action,centered_big -->
-[IMAGE]
+<figure class="featured-image">
+  <img src="starjourney.png" title="StarJourney in action" alt="StarJourney in action">
+</figure>
+
 
 What you’re seeing here is a little bit of a dream come true.
 

@@ -35,9 +35,9 @@ taken from [MAKE article](http://blog.makezine.com/2011/03/02/codebox-use-qr-cod
 article is about QR codes, but since zxing supports two-dimensional
 barcodes, it’s just a matter of tweaking.
 
-<!-- TODO: Screenshot -->
-<!-- asset software*,barcoddler.jpg,Barcoddler in action,centered_big -->
-[SCREENSHOT]
+<figure class="featured-image">
+  <img src="barcoddler.jpg" title="Barcoddler in action" alt="Barcoddler in action">
+</figure>
 
 I did run into a rather odd problem with this sketch. I spent hours
 wondering why the hell the library wasn’t detecting barcodes. I had

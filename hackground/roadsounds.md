@@ -27,11 +27,9 @@ one, and you have a peculiar mental capability, you can find such
 sound tracks everywhere.  But most people don't have the mental
 capability to actually *listen* to those soundtracks.
 
-{% comment %}
-<!-- TODO: Lead picture -->
-<!-- asset software*,roadsounds.jpg,The Sounds of the Road,centered_big -->
-{% endcomment %}
-[TITLE IMAGE]
+<figure class="featured-image">
+  <img src="roadsounds.jpg" title="The Sounds of the Road" alt="The Sounds of the Road">
+</figure>
 
 My father is, for a lack of better word, a cinema enthusiast -- as in
 he has, and does, actually run cinemas and knows the ins and outs of

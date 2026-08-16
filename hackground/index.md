@@ -8,7 +8,7 @@ I had various weird problems of technological nature. I wanted to solve
 them through technology. Weirdly. *Or:* I just wanted to make something
 weird. Point is, things got weird and wonderful.
 
-## What's in this section?
+Things you can find in this section:
 
 - Tales of weird technological solutions to everyday problems.
 - Tales of technology and art.
@@ -16,6 +16,7 @@ weird. Point is, things got weird and wonderful.
 
 ## Contents
 
+- [XMMS InfoPipe](xmms-infopipe.html) (2001-2003)
 - [NeverBlender](neverblender.html) (2003–2006)
 - [EpicDiff](epicdiff.html) (2010)
 - [The Sounds of the Road](roadsounds.html) (2011)
@@ -27,4 +28,3 @@ weird. Point is, things got weird and wonderful.
 Upcoming:
 
 - Silly Hello World <!--[](sillyhelloworld.html) --> (2015)
-- XMMS InfoPipe <!-- [](xmms_infopipe.html) --> (Year?)
