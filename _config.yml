@@ -9,6 +9,29 @@ url: https://umbraroze.github.io
 github_username: umbraroze
 show_downloads: false
 
+
+copyright: "Rose Midford"
+author:
+  name: "Rose Midford"
+  location: "Oulu, Finland"
+  email: "wwwwolf@iki.fi"
+  fediverse: "@umbraroze@tech.lgbt"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/umbraroze
+    - label: "Codeberg"
+      icon: "fab fa-fw fa-forgejo"
+      url: https://codeberg.org/umbraroze
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/umbraroze
+    - label: "Codeberg"
+      icon: "fab fa-fw fa-forgejo"
+      url: https://codeberg.org/umbraroze
+
 include:
  - .nojekyll
 
@@ -18,8 +41,12 @@ collections:
     permalink: /blog/:year/:month/:title:output_ext
 
 # Build settings
-# For remote theme documentation: https://github.com/pages-themes/cayman
-theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+
+# THEME SETTINGS
+# For remote theme documentation:
+#  https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "sunrise"
 
