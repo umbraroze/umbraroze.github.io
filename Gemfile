@@ -12,5 +12,5 @@ end
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.8.0", :platforms => [:jruby]
 group :development do
-  gem "solargraph"
+  #gem "solargraph"
 end
