@@ -17,6 +17,9 @@ author:
   email: "wwwwolf@iki.fi"
   fediverse: "@umbraroze@tech.lgbt"
   links:
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: https://tech.lgbt/@umbraroze
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/umbraroze
@@ -50,3 +53,10 @@ plugins:
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "sunrise"
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true

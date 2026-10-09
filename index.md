@@ -1,8 +1,8 @@
 ---
-layout: splash
+layout: home
 ---
 
-Welcome!
+Welcome to Rose's humble development project website!
 
 ## So who is this?
 
@@ -51,16 +51,6 @@ These are the sub-sites that get built out of my GitHub repositories.
   solve them through technology. Weirdly.
   *Or:* I just wanted to make something weird.
   Point is, things got weird and wonderful.
-
-## Recent blog posts
-
-<ul>
-  {% for post in site.posts limit:5 %}
-  <li><a href="{{post.url}}">{{post.title}}</a> ({{ post.date | date:"%d %B %Y" }})</li>
-  {% endfor %}
-</ul>
-
-([See the blog...](blog/))
 
 ## Upcoming
 

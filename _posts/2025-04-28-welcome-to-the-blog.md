@@ -1,11 +1,9 @@
 ---
-layout: post
+layout: single
 title: "Welcome to the Blog!"
 date: 2025-04-28 10:00:00 +03:00
 published: true
-author: "Rose Midford"
-author_link: https://github.com/umbraroze
-teaser: >-
+excerpt: >-
     Welcome to my new blog!
 ---
 
