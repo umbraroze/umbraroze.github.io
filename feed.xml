@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-16T22:28:55+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Umbrarose’s Adventures in Software Development</title><subtitle>Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff.</subtitle><author><name>Rose Midford</name><email>wwwwolf@iki.fi</email></author><entry><title type="html">Welcome to the Blog!</title><link href="http://localhost:4000/blog/2025/04/welcome-to-the-blog.html" rel="alternate" type="text/html" title="Welcome to the Blog!" /><published>2025-04-28T10:00:00+03:00</published><updated>2025-04-28T10:00:00+03:00</updated><id>http://localhost:4000/blog/2025/04/welcome-to-the-blog</id><content type="html" xml:base="http://localhost:4000/blog/2025/04/welcome-to-the-blog.html"><![CDATA[<p>Welcome to my new blog!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://umbraroze.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://umbraroze.github.io/" rel="alternate" type="text/html" /><updated>2026-10-09T21:29:22+03:00</updated><id>https://umbraroze.github.io/feed.xml</id><title type="html">Umbrarose’s Adventures in Software Development</title><subtitle>Random code thingies from a weird developer called Rose. These can get sorta unusual and stuff.</subtitle><author><name>Rose Midford</name><email>wwwwolf@iki.fi</email></author><entry><title type="html">Right, off we go!</title><link href="https://umbraroze.github.io/blog/2026/10/right-off-we-go.html" rel="alternate" type="text/html" title="Right, off we go!" /><published>2026-10-09T21:20:00+03:00</published><updated>2026-10-09T21:20:00+03:00</updated><id>https://umbraroze.github.io/blog/2026/10/right-off-we-go</id><content type="html" xml:base="https://umbraroze.github.io/blog/2026/10/right-off-we-go.html"><![CDATA[<p>I’m still probably not going to publicise this blog all that much, but
+I now at least have a) a Jekyll theme that looks kinda good and b) a much
+better way of publishing this content (using the raw branch deploy instead
+of relying on the old GitHub Pages build process).</p>
+
+<p>Anyhow, here’s some of the stuff I’ve been working on:</p>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/umbraroze/ConmanDictionary">Conman’s Dictionary</a>:
+Basically, I’ve been having a 10 year odyssey of Not Getting Anything
+Done with this project. I decided to abandon the C# version that was
+going forward <em>glacially</em> slowly, decided that the Rust version was
+just hopeless on the outset – and went back to Java.</p>
+
+    <p>So I’m definitely looking forward to learning what has been
+happening in Java land since Java SE 6. …I hear <em>things</em> have been
+happening. A lot of things.</p>
+
+    <p>In particular, this will be a great exercise in learning OpenJFX
+and modern stuff like Gradle.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/umbraroze/PhotoFlow">PhotoFlow</a>:
+My photo importer is stable-ish, but there are things that need work
+to make the whole thing clearer.</p>
+
+    <p>Also, I need to start working on some of the cool new tools,
+and really start getting in the habit of filling the bug tracker with
+all of the random ideas.</p>
+  </li>
+  <li>
+    <p><a href="https://codeberg.org/umbraroze/LankkuTraktori">LankkuTraktori</a>:
+Decided to write some Commodore 64 disk extractor things. Just learning
+the ropes of the Python <code class="language-plaintext highlighter-rouge">construct</code> library, I guess. This isn’t 
+working much yet, at all, but I’ve got a feeling I’ll be putting some
+heavy time on this one.</p>
+  </li>
+</ul>
+
+<p>Yeah, I know, this really is a random update out of the blue, and I’m
+not really addressing this to anyone at all, but I need to journal some
+of the stuff I’m doing for my own sake.</p>]]></content><author><name>Rose Midford</name><email>wwwwolf@iki.fi</email></author><summary type="html"><![CDATA[A brief look at what I've been working on lately. Conman's Dictionary, PhotoFlow, LankkuTraktori]]></summary></entry><entry><title type="html">Welcome to the Blog!</title><link href="https://umbraroze.github.io/blog/2025/04/welcome-to-the-blog.html" rel="alternate" type="text/html" title="Welcome to the Blog!" /><published>2025-04-28T10:00:00+03:00</published><updated>2025-04-28T10:00:00+03:00</updated><id>https://umbraroze.github.io/blog/2025/04/welcome-to-the-blog</id><content type="html" xml:base="https://umbraroze.github.io/blog/2025/04/welcome-to-the-blog.html"><![CDATA[<p>Welcome to my new blog!</p>
 
 <p>I’m trying to find a solution to the fact that I have the need to write
 blog posts, but I’m somehow not actually finishing the posts and even
@@ -17,4 +59,4 @@ This will probably cover stuff that I’m doing in both
 
 <p>Now, all I need to do is to make sure that this won’t be the last sad
 post in the feed and all you end up seeing is “Welcome to the Blog!” in
-the feed. It has happened. ADHD brain, see?</p>]]></content><author><name>Rose Midford</name></author><summary type="html"><![CDATA[Welcome to my new blog!]]></summary></entry></feed>
+the feed. It has happened. ADHD brain, see?</p>]]></content><author><name>Rose Midford</name><email>wwwwolf@iki.fi</email></author><summary type="html"><![CDATA[Welcome to my new blog!]]></summary></entry></feed>
